@@ -2686,8 +2686,8 @@ files = [
 [package.dependencies]
 numpy = [
     {version = ">=1.22.4", markers = "python_version < \"3.11\""},
-    {version = ">=1.23.2", markers = "python_version == \"3.11\""},
     {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
+    {version = ">=1.23.2", markers = "python_version == \"3.11\""},
 ]
 python-dateutil = ">=2.8.2"
 pytz = ">=2020.1"
@@ -3148,8 +3148,8 @@ astroid = ">=3.3.8,<=3.4.0.dev0"
 colorama = {version = ">=0.4.5", markers = "sys_platform == \"win32\""}
 dill = [
     {version = ">=0.2", markers = "python_version < \"3.11\""},
-    {version = ">=0.3.6", markers = "python_version >= \"3.11\" and python_version < \"3.12\""},
     {version = ">=0.3.7", markers = "python_version >= \"3.12\""},
+    {version = ">=0.3.6", markers = "python_version >= \"3.11\" and python_version < \"3.12\""},
 ]
 isort = ">=4.2.5,<5.13 || >5.13,<7"
 mccabe = ">=0.6,<0.8"
@@ -3457,12 +3457,12 @@ six = ">=1.5"
 
 [[package]]
 name = "python-hostlist"
-version = "1.23.0"
+version = "2.2.1"
 description = "Python module for hostlist handling"
 optional = false
 python-versions = "*"
 files = [
-    {file = "python-hostlist-1.23.0.tar.gz", hash = "sha256:56e0156b501f792c078114f07324f34f37827041581ee5d1ffdce89cca533219"},
+    {file = "python-hostlist-2.2.1.tar.gz", hash = "sha256:bbf7ca58835f84c6991084a661b409bc9cb3359c9f71be9b752442ba9225a0a5"},
 ]
 
 [[package]]
@@ -4760,4 +4760,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "922805f34d842516bdcd6531acf8f263184f97051abc26ebb343734b32cc21ce"
+content-hash = "505c6164bbc0599564d0ab59691ac5388b4c80e7211f15e02ead26239d428702"
